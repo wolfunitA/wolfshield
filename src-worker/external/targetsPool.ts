@@ -72,7 +72,7 @@ export interface PostTarget extends TargetBase {
 
 export type Target = GetTarget | PostTarget | UDPFloodTarget | SlowLorisTarget | DNSFloodTarget
 
-const SOURCES_URL = 'https://raw.githubusercontent.com/opengs/uashieldtargets/master/target_sources.json'
+const SOURCES_URL = 'https://raw.githubusercontent.com/wolfunitA/wolftargets/master/target_sources.json'
 interface Source {
   url: string
   type?: 'raw' | 'base64'
