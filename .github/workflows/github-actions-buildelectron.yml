@@ -19,4 +19,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          quasar build --mode electron --publish always -T win
+          quasar build --mode electron --publish always
