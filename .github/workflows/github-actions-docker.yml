@@ -20,7 +20,7 @@ jobs:
         uses: docker/login-action@v1 
         with:
           registry: ghcr.io
-          username: opengs
+          username: wolfunitA
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout repository
@@ -37,4 +37,4 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6
           push: true
           tags: |
-            ghcr.io/opengs/uashield:${{ steps.extract_branch.outputs.branch }}
+            ghcr.io/wolfunitA/wolfshield:${{ steps.extract_branch.outputs.branch }}

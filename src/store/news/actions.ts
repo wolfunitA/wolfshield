@@ -4,7 +4,7 @@ import { ActionTree } from 'vuex'
 import { StateInterface } from '../index'
 import { NewsState, NewsEntry } from './state'
 
-const NEWS_LINK = 'https://raw.githubusercontent.com/opengs/uashield/master/news.json'
+const NEWS_LINK = 'https://raw.githubusercontent.com/wolfunitA/wolfshield/master/news.json'
 
 const actions: ActionTree<NewsState, StateInterface> = {
   async load ({ commit }) {

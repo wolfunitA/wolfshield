@@ -5,7 +5,7 @@
   "productName": "UA Cyber SHIELD",
   "author": "Mykola Zhyhallo <mzhyhall@gmail.com>",
   "private": true,
-  "repository": "github:opengs/uashield",
+  "repository": "github:wolfunitA/wolfshield",
   "scripts": {
     "build:headless": "esbuild ./headless.ts --platform=node  --bundle --minify --sourcemap --sources-content=false --keep-names --target=node16 --outfile=./build/headless/headless.js",
     "start:headless": "NODE_ENV=production node --enable-source-maps ./build/headless/headless.js"

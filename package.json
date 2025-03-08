@@ -5,7 +5,7 @@
   "productName": "UA Cyber SHIELD",
   "author": "slamy",
   "private": true,
-  "repository": "github:opengs/uashield",
+  "repository": "github:wolfunitA/wolfshield",
   "scripts": {
     "start:dev": "quasar dev -m electron",
     "start:electron": "electron ./dist/electron/UnPackaged/electron-main.js",

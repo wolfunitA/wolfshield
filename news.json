@@ -1,18 +1,18 @@
 [
     {
         "index": 1,
-        "title": "Заблокований Discord",
-        "content": "Наше діскорд комюніті заблокували і не хочуть відновлювати доступ. Рашики-парашики. Ну що ж, зробимо стрічку новин тут. Підключайтеся до телеграму та до офіційного каналу IT Army.",
+        "title": "Proxies unavailable.",
+        "content": "Current proxy list is not up-to-date. Please do not use them.",
         "icon": "report",
         "iconColor": "red",
-        "date": "06-11-2022"
+        "date": "07-03-2025"
     },
     {
         "index": 0,
-        "title": "Оновлення 1.0.11",
-        "content": "Редизайн проекту. Тепер ще приємніше валити русню.",
+        "title": "First release - Wolf IT Kit",
+        "content": "Thanks to IT Army of Ukrain we release our first kit.",
         "icon": "star",
         "iconColor": "yellow",
-        "date": "06-11-2022"
+        "date": "06-03-2025"
     }
 ]

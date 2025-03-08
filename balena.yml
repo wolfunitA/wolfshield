@@ -8,12 +8,12 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/opengs/uashield.git'
+      url: 'https://github.com/wolfunitA/wolfshield.git'
   logo:
     type: blob.asset
     data:
       url: >-
-        https://raw.githubusercontent.com/opengs/uashield/master/src/assets/ukraine.svg
+        https://raw.githubusercontent.com/wolfunitA/wolfshield/master/src/assets/ukraine.svg
 data:
   applicationEnvironmentVariables:
     - WORKERS: 128
