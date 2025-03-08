@@ -1,4 +1,4 @@
-name: Node CI
+name: Node CI windows
 
 on:
   push:
@@ -19,9 +19,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          quasar build --mode electron --publish always -T win
+          yarn quasar build --mode electron --publish always -T win
       - name: Linux arm64
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          quasar build --mode electron --publish always -T linux --arch arm64
+          yarn quasar build --mode electron --publish always -T linux --arch arm64
