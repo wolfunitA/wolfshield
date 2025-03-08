@@ -19,9 +19,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          yarn quasar build --mode electron --publish always -T win
+          quasar build --mode electron --publish always -T win
       - name: Linux arm64
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          yarn quasar build --mode electron --publish always -T linux --arch arm64
+          quasar build --mode electron --publish always -T linux --arch arm64
