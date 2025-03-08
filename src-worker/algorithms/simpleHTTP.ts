@@ -136,7 +136,7 @@ export abstract class SimpleHTTP extends Algorithm {
         password: proxy.password
       }, {
         timeout: 4000,
-        dnsCache: this.dnsLookup
+        //dnsCache: this.dnsLookup
       })
     }
 
