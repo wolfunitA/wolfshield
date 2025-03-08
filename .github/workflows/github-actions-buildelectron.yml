@@ -8,7 +8,7 @@ on:
 
 jobs:
   build_and_test:
-    runs-on: self-hosted
+    runs-on: self-hosted ubuntu-18.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
