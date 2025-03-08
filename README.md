@@ -1,7 +1,7 @@
 # Wolf Unit Kit  🇫🇷 🇪🇺 🇺🇦
 Under construction.
 
-Fork from UACyberShield (https://github.com/wolfunitA/wolfshield) 
+Fork from UACyberShield (https://github.com/opengs/uashield) 
 
 A new version is available : UACyberShield V2 (https://github.com/opengs/itarmykit)
 This repository will be archived when the stable version of the new tool will be released.
