@@ -1,7 +1,7 @@
 version: '3'
 services:
     uashield:
-      image: ghcr.io/wolfunitA/wolfshield:master
+      image: ghcr.io/wolfunita/wolfshield:master
       restart: always
       environment:
         WORKERS: '256'
