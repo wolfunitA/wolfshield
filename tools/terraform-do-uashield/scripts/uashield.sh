@@ -23,7 +23,7 @@ sudo echo "
 version: \"3.3\"
 services:
   worker:
-    image: ghcr.io/opengs/uashield:latest
+    image: ghcr.io/wolfunitA/wolfshield:latest
     restart: always
     command:
       - \"--workers=128\"
