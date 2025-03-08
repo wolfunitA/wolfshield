@@ -154,9 +154,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: 'UA Cyber SHIELD',
-        short_name: 'UA Cyber SHIELD',
-        description: 'Cyber security shield of the Ukraine',
+        name: 'Wolf Cyber kit',
+        short_name: 'Wolf Cyber kit',
+        description: 'Cyber security Wolf kit',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
