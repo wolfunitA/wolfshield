@@ -19,6 +19,7 @@ jobs:
         run: |
           sudo dpkg --add-architecture i386
           sudo apt update
+          sudo apt install -y snapd
           sudo apt install -y wine32
           sudo snap install snapcraft --classic
       - name: Linux 64 bit
