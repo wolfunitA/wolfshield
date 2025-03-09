@@ -1,5 +1,9 @@
 # Wolf Unit Kit  🇫🇷 🇪🇺 🇺🇦
-Under construction.
+
+See [release page](https://github.com/wolfunitA/wolfshield/releases) for last version.
+
+Run with docker :
+```docker run --name wolfkit ghcr.io/wolfunita/wolfshield:latest```
 
 Fork from UACyberShield (https://github.com/opengs/uashield) 
 
